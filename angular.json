@@ -33,6 +33,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "/MediSearchh/",
               "budgets": [
                 {
                   "type": "initial",
@@ -89,6 +90,9 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
